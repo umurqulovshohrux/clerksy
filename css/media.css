@@ -1,0 +1,146 @@
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 576px) {
+.header-hero__image{
+    width: 100%;
+}
+.beautiful-girl__image{
+    width: 80%;
+    margin: auto;
+
+}
+.header-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-nav__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.beautiful-girl__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textertexter h2{
+    max-width: 100%;
+    
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+    .logos_portner-list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        row-gap: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media(max-width: 992px) {
+    .cards {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+    }
+    .prodictions-title {
+        width: 100%;
+        margin: auto;
+        color: #FBFAF7;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 54px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    
+    }
+    .header-hero {
+        width: 100%;
+        background: #163A24;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex{
+        flex-direction: column;
+        row-gap: 100px;
+        align-items: center;
+        justify-content: center;
+    margin-bottom: 100px;
+    }
+    .header{
+        width: 100%;
+    }
+    .main{
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .strenght-boy__texts{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex2{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        
+        
+    }
+    .prodictions{
+        width: 100%;
+    }
+    .center-img{
+        width: 100%;
+    }
+    .logos_portner{
+        max-width: 700PX;
+        width: 100%;
+
+    }
+    .logos_portner-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .main{
+        align-items: center;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+    }
+    .center-img{
+        width: 100%;
+    } 
+}
